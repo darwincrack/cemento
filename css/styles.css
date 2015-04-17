@@ -1,0 +1,55 @@
+/* CSS Document */
+
+.back-site{
+	background:url(../img/back-site.png);}
+
+.barra{
+	background-image: url(../img/bg.png);
+	background-color: #FF1C1F;
+}
+
+
+.font-size-doce
+{
+	font-size: 12px;
+}
+
+a, a:hover, a:focus
+{
+	color:#FF0202;
+}
+
+.checkbox .checkbox-material .check
+{
+	position: relative;
+display: inline-block;
+width: 19px;
+height: 17px;
+border: 2px solid;
+border-radius: 2px;
+overflow: hidden;
+z-index: 1;
+margin-right: 5px;
+}
+
+.checkbox input[type=checkbox]:checked+.checkbox-material .check, .checkbox-default input[type=checkbox]:checked+.checkbox-material .check
+{
+	color:#AF4C4C;
+}
+
+.checkbox input[type=checkbox]:checked+.checkbox-material .check:before, .checkbox-default input[type=checkbox]:checked+.checkbox-material .check:before
+{
+	color:#AF4C4C;
+}
+
+.navbar.navbar, .navbar-default.navbar{
+	background-color: #FF0000;
+color: rgba(255,255,255,.84);
+	}
+	
+.alert {
+	padding: 3px;
+	margin-bottom: 10px;
+	}
+.alert-dismissable .close, .alert-dismissible .close{
+	right:0}

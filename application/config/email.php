@@ -6,7 +6,7 @@ $config['smtp_host'] = "aspmx.l.google.com";
 $config['smtp_port'] = "25";
 
 /*$config['smtp_user'] = 'darwintherudito@gmail.com';
-$config['smtp_pass'] = 'Schnauzer+';*/
+$config['smtp_pass'] = 'pass';*/
 $config['charset'] = "utf-8";
 $config['mailtype'] = "html";
 $config['newline'] = "\r\n";
